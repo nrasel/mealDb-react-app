@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import './Meal.css'
 
 const Meal = (props) => {
@@ -13,7 +15,7 @@ const Meal = (props) => {
                     <div class="card-body">
                         <h5 class="card-title">{strMeal}</h5>
                         <p class="card-text">{strInstructions.slice(0, 200)}</p>
-                        <button onClick={() => props.handleSelect(props.meal)} className="btn btn-primary">Select</button>
+                        <button onClick={() => props.handleSelect(props.meal)} className="btn btn-primary"><FontAwesomeIcon icon={faCheck} /> Select</button>
                     </div>
                 </div>
             </div>
