@@ -1,0 +1,15 @@
+.food-header{
+    background-color: black;
+    padding: 20px 0;
+}
+.food-header a{
+    color: rgb(207, 201, 201);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.food-header a:hover{
+    background-color: lightgray;
+    color: black;
+    padding: 10px 0;
+}
